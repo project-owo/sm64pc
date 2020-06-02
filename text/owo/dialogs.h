@@ -19,8 +19,8 @@
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
 Wowo! You're smack in the\n\
 middwe of the battwefiewd.\n\
-Youw'll find the Powower\n\
-Stars that Bowowser stowole\n\
+You'w find the Powower\n\
+Staws that Bowowser stowole\n\
 inside the painting\n\
 worlds.\n\
 Fiwrst, pwease talk to the\n\
@@ -39,7 +39,7 @@ and pwessing [B] UwU."))
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Watch owt OwO! If yowou wander\n\
 awound hewe, you'we wiabwe\n\
-to be " PWASTERED " by a\n\
+to be " PLASTERED " by a\n\
 watew bomb! >w<\n\
 Those enemy Bob-ombs wove\n\
 to fight, and thowse big meanies\n\
@@ -55,7 +55,7 @@ and gowo weft up the path\n\
 to find the Big Bob-omb.\n\
 Pwease come back to see\n\
 me aftew yowou've wetrieved\n\
-the Powew Staw!"))
+the Powew Staw! uwu"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
 Hey, you! It's dangerous\n\
