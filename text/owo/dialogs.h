@@ -17,45 +17,45 @@
 #endif
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wow! You're smack in the\n\
-middle of the battlefield.\n\
-You'll find the Power\n\
-Stars that Bowser stole\n\
+Wowo! You're smack in the\n\
+middwe of the battwefiewd.\n\
+You'w find the Powower\n\
+Staws that Bowowser stowole\n\
 inside the painting\n\
 worlds.\n\
-First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
-help you out, and so will\n\
-his " COMRADES " in other\n\
-areas.\n\
-To read signs, stop, face\n\
-them and press [B]. Press [A]\n\
-or [B] to scroll ahead. You\n\
-can talk to some other\n\
+Fiwrst, pwease talk to the\n\
+Bob-omb Buddy. (Pwess [B]\n\
+to tawk.) Hew'll certainwy\n\
+hewp you owout, and sowo will\n\
+his " COMRADES " in othew\n\
+aweas.\n\
+To wead signs,pwease stop, face\n\
+them and pwess [B]. Pwess [A]\n\
+ow [B] to scwoll ahead. Yowou\n\
+can tawk to some other\n\
 characters by facing them\n\
-and pressing [B]."))
+and pwessing [B] UwU."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
-Watch out! If you wander\n\
-around here, you're liable\n\
+Watch owt OwO! If yowou wander\n\
+awound hewe, you'we wiabwe\n\
 to be " PLASTERED " by a\n\
-water bomb!\n\
-Those enemy Bob-ombs love\n\
-to fight, and they're\n\
-always finding ways to\n\
+watew bomb! >w<\n\
+Those enemy Bob-ombs wove\n\
+to fight, and thowse big meanies\n\
+awe awways finding ways to\n\
 attack.\n\
 This meadow has become\n\
-a battlefield ever since\n\
+a battwefiewd evew since\n\
 the Big Bob-omb got his\n\
-paws on the Power Star.\n\
-Can you recover the Star\n\
-for us? Cross the bridge\n\
-and go left up the path\n\
+paws on the Power Star. >w<\n\
+Can yowou wecovew the Star\n\
+fow us pwease? Cwoss the bwidge\n\
+and gowo weft up the path\n\
 to find the Big Bob-omb.\n\
-Please come back to see\n\
-me after you've retrieved\n\
-the Power Star!"))
+Pwease come back to see\n\
+me aftew yowou've wetrieved\n\
+the Powew Staw! uwu"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
 Hey, you! It's dangerous\n\
