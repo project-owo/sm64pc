@@ -17,18 +17,18 @@
 #endif
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wow! You're smack in the\n\
-middle of the battlefield.\n\
-You'll find the Power\n\
-Stars that Bowser stole\n\
+Wowo! You're smack in the\n\
+middwe of the battwefiewd.\n\
+You'll find the Powower\n\
+Stars that Bowowser stowole\n\
 inside the painting\n\
 worlds.\n\
-First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
-help you out, and so will\n\
-his " COMRADES " in other\n\
-areas.\n\
+Fiwrst, pwease talk to the\n\
+Bob-omb Buddy. (Pwess [B]\n\
+to tawk.) Hew'll certainwy\n\
+hewp you owout, and sowo will\n\
+his " COMRADES " in othew\n\
+aweas.\n\
 To read signs, stop, face\n\
 them and press [B]. Press [A]\n\
 or [B] to scroll ahead. You\n\
