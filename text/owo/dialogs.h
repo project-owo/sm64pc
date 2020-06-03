@@ -541,37 +541,37 @@ scurry up quickly, press\n\
 the [A] Button."))
 
 DEFINE_DIALOG(DIALOG_043, 1, 5, 30, 200, _("\
-If you jump and hold the\n\
+If youwu jwump and howd the\n\
 [A] Button, you can hang on\n\
-to some objects overhead.\n\
-It's the same as grabbing\n\
-a flying bird!"))
+to some objects ovahewd.\n\
+It's the swame as gwabbing\n\
+a fwying biwd!~~"))
 
 DEFINE_DIALOG(DIALOG_044, 1, 5, 95, 200, _("\
-Whooo's there? Whooo\n\
-woke me up? It's still\n\
-daylight--I should be\n\
-sleeping!\n\
+Whowowo's there? Whowowo\n\
+wokie me uwp? It's stiww\n\
+daywight--I shood be\n\
+slweepy weepy!\n\
 \n\
-Hey, as long as I'm\n\
-awake, why not take a\n\
-short flight with me?\n\
-Press and hold [A] to grab\n\
-on. Release [A] to let go.\n\
-I'll take you wherever\n\
-you want to go, as long\n\
-as my wings hold out.\n\
-Watch my shadow, and\n\
-grab on."))
+Hey~, as wong as I'm\n\
+wakey, why not takey a\n\
+short fwight with me?~\n\
+Pwess and howd [A] to gwabby\n\
+on. Wewease [A] to wet goey.\n\
+I'll take youwu wheweva\n\
+you want to gowo, as wong\n\
+as my wingys howd ouwt.\n\
+Watch my shadowo, and\n\
+gwabby on~~"))
 
 DEFINE_DIALOG(DIALOG_045, 1, 6, 95, 200, _("\
-Whew! I'm just about\n\
-flapped out. You should\n\
-lay off the pasta, Mario!\n\
-That's it for now. Press\n\
-[A] to let go. Okay,\n\
-bye byyyyyyeeee!"))
-
+Whewe! I'm jwust abowut\n\
+fwappied owut. You shood\n\
+way off the pwasta, Mawio!\n\
+That's it for nowo. Pwess\n\
+[A] to wet goey. Okie,\n\
+bai baaaiii~~!"))
+  
 DEFINE_DIALOG(DIALOG_046, 1, 5, 30, 200, _("\
 You have to master three\n\
 important jumping\n\
