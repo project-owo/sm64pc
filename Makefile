@@ -42,8 +42,8 @@ TEXTURE_FIX ?= 0
 EXT_OPTIONS_MENU ?= 1
 # Disable text-based save-files by default
 TEXTSAVES ?= 0
-# Load resources from external files (enabled by default in this mod)
-EXTERNAL_DATA ?= 1
+# Load resources from external files
+EXTERNAL_DATA ?= 0
 
 # Various workarounds for weird toolchains
 
@@ -86,7 +86,7 @@ ifeq ($(WINDOWS_BUILD),1)
     TARGET_BITS = 32
     NO_BZERO_BCOPY := 1
   else ifeq ($(CROSS),x86_64-w64-mingw32.static-)
-    TARGET_ARCH = i386pep
+    TARGET_ARCH = i386pe
     TARGET_BITS = 64
     NO_BZERO_BCOPY := 1
   endif
@@ -106,19 +106,22 @@ ifeq ($(VERSION),jp)
   GRUCODE_CFLAGS := -DF3D_OLD
   GRUCODE_ASFLAGS := --defsym F3D_OLD=1
   TARGET := sm64.jp
-else ifeq ($(VERSION),us)
+else
+ifeq ($(VERSION),us)
   VERSION_CFLAGS := -DVERSION_US
   VERSION_ASFLAGS := --defsym VERSION_US=1
   GRUCODE_CFLAGS := -DF3D_OLD
   GRUCODE_ASFLAGS := --defsym F3D_OLD=1
   TARGET := sm64.us
-else ifeq ($(VERSION),eu)
+else
+ifeq ($(VERSION),eu)
   VERSION_CFLAGS := -DVERSION_EU
   VERSION_ASFLAGS := --defsym VERSION_EU=1
   GRUCODE_CFLAGS := -DF3D_NEW
   GRUCODE_ASFLAGS := --defsym F3D_NEW=1
   TARGET := sm64.eu
-else ifeq ($(VERSION),sh)
+else
+ifeq ($(VERSION),sh)
   $(warning Building SH is experimental and is prone to breaking. Try at your own risk.)
   VERSION_CFLAGS := -DVERSION_SH
   VERSION_ASFLAGS := --defsym VERSION_SH=1
@@ -127,14 +130,11 @@ else ifeq ($(VERSION),sh)
   TARGET := sm64.sh
 # TODO: GET RID OF THIS!!! We should mandate assets for Shindou like EU but we dont have the addresses extracted yet so we'll just pretend you have everything extracted for now.
   NOEXTRACT := 1
-else ifeq ($(VERSION),owo)
-  VERSION_CFLAGS := -DVERSION_US
-  VERSION_ASFLAGS := --defsym VERSION_US=1
-  GRUCODE_CFLAGS := -DF3D_OLD
-  GRUCODE_ASFLAGS := --defsym F3D_OLD=1
-  TARGET := sm64.owo
 else
   $(error unknown version "$(VERSION)")
+endif
+endif
+endif
 endif
 
 # Stuff for showing the git hash in the intro on nightly builds
@@ -152,26 +152,34 @@ ifeq ($(GRUCODE),f3dex) # Fast3DEX
   GRUCODE_ASFLAGS := --defsym F3DEX_GBI_SHARED=1 --defsym F3DEX_GBI=1
   TARGET := $(TARGET).f3dex
   COMPARE := 0
-else ifeq ($(GRUCODE), f3dex2) # Fast3DEX2
+else
+ifeq ($(GRUCODE), f3dex2) # Fast3DEX2
   GRUCODE_CFLAGS := -DF3DEX_GBI_2
   GRUCODE_ASFLAGS := --defsym F3DEX_GBI_SHARED=1 --defsym F3DEX_GBI_2=1
   TARGET := $(TARGET).f3dex2
   COMPARE := 0
-else ifeq ($(GRUCODE), f3dex2e) # Fast3DEX2 Extended (PC default)
+else
+ifeq ($(GRUCODE), f3dex2e) # Fast3DEX2 Extended (PC default)
   GRUCODE_CFLAGS := -DF3DEX_GBI_2E
   TARGET := $(TARGET).f3dex2e
   COMPARE := 0
-else ifeq ($(GRUCODE),f3d_new) # Fast3D 2.0H (Shindou)
+else
+ifeq ($(GRUCODE),f3d_new) # Fast3D 2.0H (Shindou)
   GRUCODE_CFLAGS := -DF3D_NEW
   GRUCODE_ASFLAGS := --defsym F3D_NEW=1
   TARGET := $(TARGET).f3d_new
   COMPARE := 0
-else ifeq ($(GRUCODE),f3dzex) # Fast3DZEX (2.0J / Animal Forest - Dōbutsu no Mori)
+else
+ifeq ($(GRUCODE),f3dzex) # Fast3DZEX (2.0J / Animal Forest - Dōbutsu no Mori)
   $(warning Fast3DZEX is experimental. Try at your own risk.)
   GRUCODE_CFLAGS := -DF3DEX_GBI_2
   GRUCODE_ASFLAGS := --defsym F3DEX_GBI_SHARED=1 --defsym F3DZEX_GBI=1
   TARGET := $(TARGET).f3dzex
   COMPARE := 0
+endif
+endif
+endif
+endif
 endif
 
 # Default build is for PC now
@@ -198,7 +206,8 @@ endif
 # on tools and assets, and we use directory globs further down
 # in the makefile that we want should cover assets.)
 
-ifeq (,$(findstring clean,$(MAKECMDGOALS)))
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(MAKECMDGOALS),distclean)
 
 # Make sure assets exist
 NOEXTRACT ?= 0
@@ -215,6 +224,7 @@ ifeq ($(DUMMY),FAIL)
   $(error Failed to build tools)
 endif
 
+endif
 endif
 
 ################ Target Executable and Sources ###############
@@ -270,7 +280,15 @@ GODDARD_SRC_DIRS := src/goddard src/goddard/dynlists
 MIPSISET := -mips2
 MIPSBIT := -32
 
-OPT_FLAGS := -O2
+ifeq ($(VERSION),eu)
+  OPT_FLAGS := -O2
+else
+ifeq ($(VERSION),sh)
+  OPT_FLAGS := -O2
+else
+  OPT_FLAGS := -O2
+endif
+endif
 
 # Set BITS (32/64) to compile for
 OPT_FLAGS += $(BITS)
@@ -402,12 +420,6 @@ SOUND_SEQUENCE_FILES := $(wildcard sound/sequences/jp/*.m64) \
     $(wildcard sound/sequences/*.m64) \
     $(foreach file,$(wildcard sound/sequences/jp/*.s),$(BUILD_DIR)/$(file:.s=.m64)) \
     $(foreach file,$(wildcard sound/sequences/*.s),$(BUILD_DIR)/$(file:.s=.m64))
-else ifeq ($(VERSION),owo)
-SOUND_BANK_FILES := $(wildcard sound/sound_banks/*.json)
-SOUND_SEQUENCE_FILES := $(wildcard sound/sequences/us/*.m64) \
-    $(wildcard sound/sequences/*.m64) \
-    $(foreach file,$(wildcard sound/sequences/us/*.s),$(BUILD_DIR)/$(file:.s=.m64)) \
-    $(foreach file,$(wildcard sound/sequences/*.s),$(BUILD_DIR)/$(file:.s=.m64))
 else
 SOUND_BANK_FILES := $(wildcard sound/sound_banks/*.json)
 SOUND_SEQUENCE_FILES := $(wildcard sound/sequences/$(VERSION)/*.m64) \
@@ -479,8 +491,8 @@ ifeq ($(WINDOWS_BUILD),1) # fixes compilation in MXE on Linux and WSL
   OBJDUMP := $(CROSS)objdump
 else ifeq ($(OSX_BUILD),1)
   CPP := cpp-9 -P
-  OBJCOPY := i686-w64-mingw32-objcopy
   OBJDUMP := i686-w64-mingw32-objdump
+  OBJCOPY := i686-w64-mingw32-objcopy
 else # Linux & other builds
   CPP := $(CROSS)cpp -P
   OBJCOPY := $(CROSS)objcopy
@@ -690,19 +702,17 @@ $(BUILD_DIR)/levels/menu/leveldata.o: $(BUILD_DIR)/text/us/define_courses.inc.c
 $(BUILD_DIR)/levels/menu/leveldata.o: $(BUILD_DIR)/text/de/define_courses.inc.c
 $(BUILD_DIR)/levels/menu/leveldata.o: $(BUILD_DIR)/text/fr/define_courses.inc.c
 
-else ifeq ($(VERSION),sh)
+else
+ifeq ($(VERSION),sh)
 TEXT_DIRS := text/jp
 $(BUILD_DIR)/bin/segment2.o: $(BUILD_DIR)/text/jp/define_text.inc.c
-
-else ifeq ($(VERSION),owo)
-TEXT_DIRS := text/owo
-$(BUILD_DIR)/bin/segment2.o: $(BUILD_DIR)/text/owo/define_text.inc.c
 
 else
 TEXT_DIRS := text/$(VERSION)
 
 # non-EU encoded text inserted into segment 0x02
 $(BUILD_DIR)/bin/segment2.o: $(BUILD_DIR)/text/$(VERSION)/define_text.inc.c
+endif
 endif
 
 $(BUILD_DIR)/text/%/define_courses.inc.c: text/define_courses.inc.c text/%/courses.h

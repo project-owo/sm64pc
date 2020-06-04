@@ -1,6 +1,6 @@
 // == debug table ==
 
-#if !defined(VERSION_EU) || !defined(VERSION_OWO)
+#ifndef VERSION_EU
 
 // (this wasn't translated for US, and was removed in EU)
 
