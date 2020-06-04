@@ -1,21 +1,5 @@
 // Parameters: dialog enum ID, (unused), lines per box, left offset, width
 
-#ifdef VERSION_EU
-#define COMRADES "friends"
-#define PLASTERED "splattered"
-#define SCAM_ME "cheat!\n"
-#define SCRAM "get lost"
-#define YOU_CANT_SWIM_IN_IT "Its too heavy to swim\nwith."
-#define GIVE_UP "give up"
-#else
-#define COMRADES "comrades"
-#define PLASTERED "plastered"
-#define SCAM_ME "scam\nME. "
-#define SCRAM "scram--"
-#define YOU_CANT_SWIM_IN_IT "You can't swim in it."
-#define GIVE_UP "give"
-#endif
-
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
 Wowo! You're smack in the\n\
 middwe of the battwefiewd.\n\
@@ -27,7 +11,7 @@ Fiwrst, pwease talk to the\n\
 Bob-omb Buddy. (Pwess [B]\n\
 to tawk.) Hew'll certainwy\n\
 hewp you owout, and sowo will\n\
-his " COMRADES " in othew\n\
+his comwades in othew\n\
 aweas.\n\
 To wead signs,pwease stop, face\n\
 them and pwess [B]. Pwess [A]\n\
@@ -39,7 +23,7 @@ and pwessing [B] UwU."))
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Watch owt OwO! If yowou wander\n\
 awound hewe, you'we wiabwe\n\
-to be " PLASTERED " by a\n\
+to be pwastered by a\n\
 watew bomb! >w<\n\
 Those enemy Bob-ombs wove\n\
 to fight, and thowse big meanies\n\
@@ -123,8 +107,8 @@ Ready....\n\
 //Go!////Don't Go"))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-Hey!!! Don't try to " SCAM_ME
-"You've gotta run\n\
+Hey!!! Don't try to scam\n\
+ME. You've gotta run\n\
 the whole course.\n\
 Later. Look me up when\n\
 you want to race for\n\
@@ -274,67 +258,68 @@ DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
 Shhh! Please walk\n\
 quietly in the hallway!"))
 
-DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
-Dear Mario:\n\
-Please come to the\n\
-castle. I've baked\n\
-a cake for you.\n\
-Yours truly--\n\
-Princess Toadstool"))
+DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150 _("\
+Deaw Mawio:\n\
+Pwease, couwd you\n\
+come to the caswle?\n\
+I has bwaked a widdle\n\
+biddy cawke fow u OwO\n\
+Youws twuly--\n\
+Pwincess Toadstwool"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
-Welcome.\n\
-No one's home!\n\
-Now " SCRAM "\n\
-and don't come back!\n\
-Gwa ha ha!"))
+Wewcome Mawio,\n\
+nobody's home,\n\
+pwease go away\n\
+so I can take a\n\
+nyappy-wappy."))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
-You need a key to open\n\
-this door."))
+You needs a key so you\n\
+can open this doow OwO"))
 
 DEFINE_DIALOG(DIALOG_023, 1, 3, 95, 200, _("\
-This key doesn't fit!\n\
-Maybe it's for the\n\
-basement..."))
+This key won't fit uwu\n\
+Is a basement key, isn't\n\
+it, onii-chan?~~ OwO"))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
-You need Star power to\n\
-open this door. Recover a\n\
-Power Star from an enemy\n\
-inside one of the castle's\n\
-paintings."))
+You need Staw powew to\n\
+open this doow. Recovew a\n\
+Powew Staw fwom an enemy\n\
+inside one of the castwe's\n\
+painwings."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
-It takes the power of\n\
-3 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+It takes the powew of\n\
+3 Staws to owopen this\n\
+doow. You need [%] mowe\n\
+Staws."))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
-It takes the power of\n\
-8 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+It takes the powew of\n\
+8 Staws to owopen this\n\
+doow. You need [%] mowe\n\
+Staws."))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
-It takes the power of\n\
-30 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+It takes the powew of\n\
+30 Staws to owopen this\n\
+doow. You need [%] mowe\n\
+Staws."))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
-It takes the power of\n\
-50 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+It takes the powew of\n\
+50 Staws to owopen this\n\
+doow. You need [%] mowe\n\
+Staws."))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
-To open the door that\n\
-leads to the 『endless』\n\
-stairs, you need 70\n\
-Stars.\n\
-Bwa ha ha!"))
+To owopen the doow that\n\
+weads to the 『endwess』\n\
+staiws, you need 70\n\
+Staws. Bet you can't\n\
+get that many OwO"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
 Hello! The Lakitu Bros.,\n\
@@ -784,8 +769,8 @@ by enemy attacks.\n\
 You don't even have to\n\
 breathe while wearing it.\n\
 \n\
-The only problem:\n"
-YOU_CANT_SWIM_IN_IT))
+The only problem:\n\
+you can't swim in it."))
 
 DEFINE_DIALOG(DIALOG_063, 1, 5, 30, 200, _("\
 The Vanish Cap is inside\n\
@@ -1866,7 +1851,7 @@ Waaaaaaaaaaaaaaaaa!!!"))
 
 DEFINE_DIALOG(DIALOG_152, 1, 3, 30, 200, _("\
 Owwch! Uncle! Uncle!\n\
-Okay, I " GIVE_UP ". Take this\n\
+Okay, I give. Take this\n\
 Star!\n\
 Whew! I feel better now.\n\
 I don't really need it\n\
