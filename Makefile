@@ -204,11 +204,8 @@ ifeq (,$(findstring clean,$(MAKECMDGOALS)))
 NOEXTRACT ?= 0
 ifeq ($(NOEXTRACT),0)
 DUMMY != ./extract_assets.py $(VERSION) >&2 || echo FAIL
-ifeq ($(VERSION),owo)
-DUMMY != ./extract_assets.py us >&2 || echo FAIL
 ifeq ($(DUMMY),FAIL)
   $(error Failed to extract assets)
-endif
 endif
 endif
 
