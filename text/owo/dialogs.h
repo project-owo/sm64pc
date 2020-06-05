@@ -258,7 +258,7 @@ DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
 Shhh! Please walk\n\
 quietly in the hallway!"))
 
-DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150 _("\
+DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
 Deaw Mawio:\n\
 Pwease, couwd you\n\
 come to the caswle?\n\
