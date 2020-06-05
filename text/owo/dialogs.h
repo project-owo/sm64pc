@@ -1,7 +1,7 @@
 // Parameters: dialog enum ID, (unused), lines per box, left offset, width
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wowo! You're smack in the\n\
+Wowo! Uwu're smwack in the\n\
 middwe of the battwefiewd.\n\
 You'w find the Powower\n\
 Staws that Bowowser stowole\n\
@@ -376,16 +376,16 @@ DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
 Ciaowo! Uwu've weached\n\
 Pwincess Twoadstool's\n\
 caswle via a wawp pwipe.\n\
-Uwusing the contwolwer is a\n\
-pwiece of cakey wakey.\n\
-Pwess [A] to\n\
-jwump and [B] to attwack.\n\
+Uwusing the contwolwer is\n\
+a pwiece of cakey wakey.\n\
+Pwess [A] to jwump and\n\
+[B] to attwack.\n\
 Pwess [B] to wead swigns,\n\
-too. Uwuse the Contwol Stwick\n\
-in the centwer of the\n\
-contwolwer to mowove Mawio\n\
-awound. Nao, head fow\n\
-the caswle."))
+too. Uwuse the Contwol\n\
+Stwick in the centwer of the\n\
+contwolwer to mowove\n\
+Mawio awound.\n\
+Nao, head fow the caswle! OwO"))
 
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 Good afternoon. The\n\
