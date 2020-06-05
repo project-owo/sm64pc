@@ -1,7 +1,7 @@
 // Parameters: dialog enum ID, (unused), lines per box, left offset, width
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wowo! You're smack in the\n\
+Wowo! Uwu're smwack in the\n\
 middwe of the battwefiewd.\n\
 You'w find the Powowew\n\
 Staws that Bowowsew stowole\n\
@@ -42,22 +42,22 @@ me aftew yowou've wetwieved\n\
 the Powowew Staw! uwu"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
-Hey, you! It's dangerous\n\
-ahead, so listen up! Take\n\
-my advice.\n\
+Hey, yowou! It's dangewous\n\
+ahead, so wisten up! >w<\n\
+Take my advice. UwU\n\
 \n\
-Cross the two\n\
-bridges ahead, then\n\
-watch for falling\n\
-water bombs.\n\
-The Big Bob-omb at the\n\
+Cwoss the towo\n\
+bwidges ahead, then\n\
+watch for fawwing\n\
+watew bombs. >w<\n\
+The Big Meanie at the\n\
 top of the mountain is\n\
-very powerful--don't let\n\
-him grab you!\n\
-We're Bob-omb Buddies,\n\
-and we're on your side.\n\
-You can talk to us\n\
-whenever you'd like to!"))
+vewy powerfuw--don't wet\n\
+him gwab you! >w<\n\
+We'we Bob-omb Buddies,\n\
+and we'we on yowour side. UwU\n\
+Yowou can tawk to us\n\
+whenevew yowou'd wike to! ^w^"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
 Thank you, Mario! The Big\n\
@@ -258,7 +258,7 @@ DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
 Shhh! Please walk\n\
 quietly in the hallway!"))
 
-DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150 _("\
+DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
 Deaw Mawio:\n\
 Pwease, couwd you\n\
 come to the caswle?\n\
@@ -373,18 +373,19 @@ around while flying, and\n\
 press [Z] to land."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
-Ciao! You've reached\n\
-Princess Toadstool's\n\
-castle via a warp pipe.\n\
-Using the controller is a\n\
-piece of cake. Press [A] to\n\
-jump and [B] to attack.\n\
-Press [B] to read signs,\n\
-too. Use the Control Stick\n\
-in the center of the\n\
-controller to move Mario\n\
-around. Now, head for\n\
-the castle."))
+Ciaowo! Uwu've weached\n\
+Pwincess Twoadstool's\n\
+caswle via a wawp pwipe.\n\
+Uwusing the contwolwer is\n\
+a pwiece of cakey wakey.\n\
+Pwess [A] to jwump and\n\
+[B] to attwack.\n\
+Pwess [B] to wead swigns,\n\
+too. Uwuse the Contwol\n\
+Stwick in the centwer of the\n\
+contwolwer to mowove\n\
+Mawio awound.\n\
+Nao, head fow the caswle! OwO"))
 
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 Good afternoon. The\n\
