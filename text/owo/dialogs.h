@@ -3,27 +3,27 @@
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
 Wowo! You're smack in the\n\
 middwe of the battwefiewd.\n\
-You'w find the Powower\n\
-Staws that Bowowser stowole\n\
+You'w find the Powowew\n\
+Staws that Bowowsew stowole\n\
 inside the painting\n\
-worlds.\n\
-Fiwrst, pwease talk to the\n\
+wowwds.\n\
+Fiwwst, pwease talk to the\n\
 Bob-omb Buddy. (Pwess [B]\n\
-to tawk.) Hew'll certainwy\n\
-hewp you owout, and sowo will\n\
+to tawk.) Hew'ww certainwy\n\
+hewp you owout, and sowo wiww\n\
 his comwades in othew\n\
 aweas.\n\
-To wead signs,pwease stop, face\n\
+To wead signs, pwease stop,face\n\
 them and pwess [B]. Pwess [A]\n\
 ow [B] to scwoll ahead. Yowou\n\
-can tawk to some other\n\
-characters by facing them\n\
+can tawk to some owther\n\
+chawactews by facing them\n\
 and pwessing [B] UwU."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
-Watch owt OwO! If yowou wander\n\
+Watch owt OwO! If yowou wandew\n\
 awound hewe, you'we wiabwe\n\
-to be pwastered by a\n\
+to be pwastewed by a\n\
 watew bomb! >w<\n\
 Those enemy Bob-ombs wove\n\
 to fight, and thowse big meanies\n\
@@ -32,14 +32,14 @@ attack.\n\
 This meadow has become\n\
 a battwefiewd evew since\n\
 the Big Bob-omb got his\n\
-paws on the Power Star. >w<\n\
-Can yowou wecovew the Star\n\
+paws on the Powowew Staw. >w<\n\
+Can yowou wecovew the Staw\n\
 fow us pwease? Cwoss the bwidge\n\
 and gowo weft up the path\n\
 to find the Big Bob-omb.\n\
 Pwease come back to see\n\
-me aftew yowou've wetrieved\n\
-the Powew Staw! uwu"))
+me aftew yowou've wetwieved\n\
+the Powowew Staw! uwu"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
 Hey, you! It's dangerous\n\
@@ -275,18 +275,18 @@ so I can take a\n\
 nyappy-wappy."))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
-You needs a key so you\n\
+You need a key so you\n\
 can open this doow OwO"))
 
 DEFINE_DIALOG(DIALOG_023, 1, 3, 95, 200, _("\
 This key won't fit uwu\n\
-Is a basement key, isn't\n\
+It's a basement key, isn't\n\
 it, onii-chan?~~ OwO"))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
 You need Staw powew to\n\
 open this doow. Recovew a\n\
-Powew Staw fwom an enemy\n\
+Powowew Staw fwom an enemy\n\
 inside one of the castwe's\n\
 painwings."))
 
