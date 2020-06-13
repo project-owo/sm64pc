@@ -88,7 +88,7 @@ ifeq ($(WINDOWS_BUILD),1)
     NO_BZERO_BCOPY := 1
     NO_PIE := 1
   else ifeq ($(CROSS),x86_64-w64-mingw32.static-)
-    TARGET_ARCH = i386pe
+    TARGET_ARCH = i386pep
     TARGET_BITS = 64
     NO_BZERO_BCOPY := 1
     NO_PIE := 1
@@ -558,15 +558,12 @@ else ifeq ($(WINDOWS_BUILD),1)
   ifeq ($(WINDOWS_CONSOLE),1)
     LDFLAGS += -mconsole
   endif
-else ifeq ($(TARGET_RPI),1)
-# Linux / Other builds below
+else ifeq ($(TARGET_RPI),1) # Linux / Other builds below
 LDFLAGS := $(OPT_FLAGS) -lm -lGLESv2 `$(SDLCONFIG) --libs` -no-pie
-else
-ifeq ($(OSX_BUILD),1)
+else ifeq ($(OSX_BUILD),1)
 LDFLAGS := -lm -framework OpenGL `$(SDLCONFIG) --libs` -no-pie -lpthread `pkg-config --libs libusb-1.0 glfw3 glew`
 else
 LDFLAGS := $(BITS) -march=$(TARGET_ARCH) -lm -lGL `$(SDLCONFIG) --libs` -no-pie -lpthread
-endif
 endif # End of LDFLAGS
 
 # Prevent a crash with -sopt

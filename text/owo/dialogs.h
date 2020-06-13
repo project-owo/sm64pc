@@ -48,7 +48,7 @@ Take my advice. UwU\n\
 \n\
 Cwoss the towo\n\
 bwidges ahead, then\n\
-watch for fawwing\n\
+watch fow fawwing\n\
 watew bombs. >w<\n\
 The Big Meanie at the\n\
 top of the mountain is\n\
@@ -60,20 +60,19 @@ Yowou can tawk to us\n\
 whenevew yowou'd wike to! ^w^"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank you, Mario! The Big\n\
-Bob-omb is nothing but a\n\
-big dud now! But the\n\
-battle for the castle has\n\
-just begun.\n\
-Other enemies are holding\n\
-the other Power Stars. If\n\
-you recover more Stars,\n\
-you can open new doors\n\
-that lead to new worlds!\n\
-My Bob-omb Buddies are\n\
-waiting for you. Be sure\n\
-to talk to them--they'll\n\
-set up cannons for you."))
+Thank uu, Mawio! Da Big\n\
+Bob-omb is nuthing but a\n\
+big dud nuw! But da battwe\n\
+fow da castwe haz just\n\
+begun. Othew enemies awe\n\
+howding da othew Powowew\n\
+Staws. If uu wecovew mowe\n\
+Staws, uu can open new\n\
+doows that wead to new\n\
+wowwds! My Bob-omb Buddies\n\
+awe waiting fow uu. Be suwe\n\
+to tawk to them--they'ww\n\
+set up cannuns fow uu."))
 
 DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
 We're peace-loving\n\
