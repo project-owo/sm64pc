@@ -53,26 +53,26 @@ watew bombs. >w<\n\
 The Big Meanie at the\n\
 top of the mountain is\n\
 vewy powerfuw--don't wet\n\
-him gwab you! >w<\n\
+him gwab yowou! >w<\n\
 We'we Bob-omb Buddies,\n\
-and we'we on yowour side. UwU\n\
+and we'we on yowouw side. UwU\n\
 Yowou can tawk to us\n\
 whenevew yowou'd wike to! ^w^"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank uu, Mawio! Da Big\n\
+Thank yowou, Mawio! Da Big\n\
 Bob-omb is nuthing but a\n\
-big dud nuw! But da battwe\n\
+big dud nowow! But da battwe\n\
 fow da castwe haz just\n\
 begun. Othew enemies awe\n\
 howding da othew Powowew\n\
-Staws. If uu wecovew mowe\n\
-Staws, uu can open new\n\
+Staws. If yowou wecovew mowe\n\
+Staws, yowou can owopen new\n\
 doows that wead to new\n\
 wowwds! My Bob-omb Buddies\n\
-awe waiting fow uu. Be suwe\n\
+awe waiting fow yowou. Be suwe\n\
 to tawk to them--they'ww\n\
-set up cannuns fow uu."))
+set up cannuns fow yowou."))
 
 DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
 We're peace-loving\n\
