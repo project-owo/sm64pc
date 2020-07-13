@@ -75,151 +75,150 @@ to tawk to them--they'ww\n\
 set up cannuns fow yowou."))
 
 DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
-We're peace-loving\n\
+We'we peace-woving\n\
 Bob-ombs, so we don't use\n\
-cannons.\n\
-But if you'd like\n\
-to blast off, we don't\n\
-mind. Help yourself.\n\
-We'll prepare all of the\n\
-cannons in this course for\n\
-you to use. Bon Voyage!"))
+cannuns.\n\
+But if uu'd wike\n\
+to bwast off, we don't\n\
+mind. Hewp uuwsewf.\n\
+We'ww pwepawe aww of da\n\
+cannuns in this couwse fow\n\
+uu to use. Bon Voyage!"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
-Hey, Mario! Is it true\n\
-that you beat the Big\n\
-Bob-omb? Cool!\n\
-You must be strong. And\n\
-pretty fast. So, how fast\n\
-are you, anyway?\n\
-Fast enough to beat me...\n\
-Koopa the Quick? I don't\n\
-think so. Just try me.\n\
-How about a race to the\n\
-mountaintop, where the\n\
+Hey, Mawio! Is it twue\n\
+that uu beat da Big\n\
+Bob-omb? Coow!\n\
+You must be stwong. And\n\
+pwetty fast. So, how fast\n\
+awe uu, anyway?\n\
+Fast enuugh to beat me...\n\
+Koopa da Quick? I don't\n\
+think so. Just twy me.\n\
+How about a wace to da\n\
+mountaintop, whewe da\n\
 Big Bob-omb was?\n\
 Whaddya say? When I say\n\
-『Go,』 let the race begin!\n\
-\n\
-Ready....\n\
+『Go,』 wet da wace begin!\n\
+Weady....\n\
 \n\
 //Go!////Don't Go"))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-Hey!!! Don't try to scam\n\
-ME. You've gotta run\n\
-the whole course.\n\
-Later. Look me up when\n\
-you want to race for\n\
-real."))
+Hey!!! Don't twy to scam\n\
+ME. You've gotta wun\n\
+da whowe couwse.\n\
+Watew. Wook me up when\n\
+uu want to wace fow\n\
+weaw."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
 Hufff...fff...pufff...\n\
-Whoa! You...really...are...\n\
-fast! A human blur!\n\
-Here you go--you've won\n\
-it, fair and square!"))
+Whoa! You...weawwy...awe...\n\
+fast! A human bwuw!\n\
+Hewe uu go--uu've won\n\
+it, faiw and squawe!"))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-BEWARE OF CHAIN CHOMP\n\
-Extreme Danger!\n\
-Get close and press [C]^\n\
-for a better look.\n\
-Scary, huh?\n\
-See the Red Coin on top\n\
-of the stake?\n\
+BEWAWE OF CHAIN CHOMP\n\
+Extweme Dangew!\n\
+Get cwose and pwess [C]^\n\
+fow a bettew wook.\n\
+Scawy, huh?\n\
+See da Wed Coin on top\n\
+of da stake?\n\
 \n\
-When you collect eight of\n\
-them, a Power Star will\n\
-appear in the meadow\n\
-across the bridge."))
+When uu cowwect eight of\n\
+them, a Powew Staw wiww\n\
+appeaw in da meadow\n\
+acwoss da bwidge."))
 
 DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
-Long time, no see! Wow,\n\
-have you gotten fast!\n\
-Have you been training\n\
-on the sly, or is it the\n\
-power of the Stars?\n\
-I've been feeling down\n\
-about losing the last\n\
-race. This is my home\n\
-course--how about a\n\
-rematch?\n\
-The goal is in\n\
-Windswept Valley.\n\
-Ready?\n\
+Wong time, nu see! Wow,\n\
+haz uu gotten fast!\n\
+Have uu been twaining\n\
+on da swy, ow is it da\n\
+powew of da Staws?\n\
+I've been feewing down\n\
+about wosing da wast\n\
+wace. This is my home\n\
+couwse--how about a\n\
+wematch?\n\
+Da goaw is in\n\
+Windswept Vawwey.\n\
+Weady?\n\
 \n\
-//Go//// Don't Go"))
+//Go!////Don't Go"))
 
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
-You've stepped on the\n\
-Wing Cap Switch. Wearing\n\
-the Wing Cap, you can\n\
-soar through the sky.\n\
-Now Wing Caps will pop\n\
-out of all the red blocks\n\
-you find.\n\
+You've stepped on da\n\
+Eaw Cap Switch. Weawing\n\
+da Eaw Cap, uu can\n\
+soaw thwough da sky.\n\
+Now Eaw Caps wiww pop\n\
+out of aww da wed bwocks\n\
+uu find.\n\
 \n\
-Would you like to Save?\n\
+Wouwd uu wike to Save?\n\
 \n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_011, 1, 4, 30, 200, _("\
 You've just stepped on\n\
-the Metal Cap Switch!\n\
-The Metal Cap makes\n\
-Mario invincible.\n\
-Now Metal Caps will\n\
-pop out of all of the\n\
-green blocks you find.\n\
+da Metaw Cap Switch!\n\
+Da Metaw Cap makes\n\
+Mawiowo invincibwe.\n\
+Now Metaw Caps wiww\n\
+pop out of aww of da\n\
+gween bwocks uu find.\n\
 \n\
-Would you like to Save?\n\
+Wouwd uu wike to Save?\n\
 \n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_012, 1, 4, 30, 200, _("\
 You've just stepped on\n\
-the Vanish Cap Switch.\n\
-The Vanish Cap makes\n\
-Mario disappear.\n\
-Now Vanish Caps will pop\n\
-from all of the blue\n\
-blocks you find.\n\
+da Vanish Cap Switch.\n\
+Da Vanish Cap makes\n\
+Mawiowo disappeaw.\n\
+Now Vanish Caps wiww pop\n\
+fwom aww of da bwue\n\
+bwocks uu find.\n\
 \n\
-Would you like to Save?\n\
+Wouwd uu wike to Save?\n\
 \n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
-You've collected 100\n\
-coins! Mario gains more\n\
-power from the castle.\n\
-Do you want to Save?\n\
+You've cowwected 100\n\
+coins! Mawiowo gains mowe\n\
+powew fwom da castwe.\n\
+Do uu want to Save?\n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-Wow! Another Power Star!\n\
-Mario gains more courage\n\
-from the power of the\n\
-castle.\n\
-Do you want to Save?\n\
+Wow! Anuthew Powowew Staw!\n\
+Mawiowo gains mowe couwage\n\
+fwom da powew of da\n\
+castwe.\n\
+Do uu want to Save?\n\
 \n\
 //You Bet//Not Now"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
 You can punch enemies to\n\
-knock them down. Press [A]\n\
+knuck them down. Pwess [A]\n\
 to jump, [B] to punch.\n\
-Press [A] then [B] to Kick.\n\
+Pwess [A] then [B] to Kick.\n\
 To pick something up,\n\
-press [B], too. To throw\n\
-something you're holding,\n\
-press [B] again."))
+pwess [B], too. To thwow\n\
+something uu'we howding,\n\
+pwess [B] again."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-Hop on the shiny shell and\n\
-ride wherever you want to\n\
-go! Shred those enemies!"))
+Hop on da shiny sheww and\n\
+wide whewevew uu want to\n\
+go! Shwed those enemies!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
 I'm the Big Bob-omb, lord\n\
@@ -2085,3 +2084,18 @@ Arrgghh!\n\
 Anyone entering this cave\n\
 without permission will\n\
 meet certain disaster."))
+
+DEFINE_DIALOG(DIALOG_170, 1, 4, 30, 200, _("\
+You've just stepped on\n\
+da Koopa Sheww Switch.\n\
+Da Koopa Shewws can\n\
+be wode on.\n\
+Now Koopa Shewws wiww pop\n\
+fwom da once-invisibwe\n\
+yewwow bwocks uu find.\n\
+See if uu can figuwe out\n\
+which ones they wewe.\n\
+\n\
+Would uu wike to Save?\n\
+\n\
+//Yes////No"))
