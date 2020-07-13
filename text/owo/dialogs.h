@@ -100,6 +100,7 @@ mountaintop, whewe da\n\
 Big Bob-omb was?\n\
 Whaddya say? When I say\n\
 『Go,』 wet da wace begin!\n\
+\n\
 Weady....\n\
 \n\
 //Go!////Don't Go"))
